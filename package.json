@@ -1,7 +1,7 @@
 {
   "name": "simple-skill-icons",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": "Irfan Raza",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
