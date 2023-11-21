@@ -7,12 +7,14 @@
 
 # Docs
 
+### BASE_URL = https://simpleskill.icons.workers.dev/svg
 <!-- - [Example](#example) -->
 - [Specifying Icons](#specifying-icons)
 - [Themed Icons](#themed-icons)
 - [Icons Per Line](#icons-per-line)
 - [Centering Icons](#centering-icons)
 - [Icons List](#icons-list)
+
 
 # Specifying Icons
 
@@ -21,10 +23,10 @@ Copy and paste the code block below into your readme to add the skills icon elem
 Change the `?i=js,html,css` to a list of your skills seprated by ","s! You can find a full list of icons [here](https://simpleicons.org/).
 
 ```md
-[![My Skills](https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,angular)
+[![My Skills]([BASE_URL]?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,angular)
 ```
 
-![My Skills](https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,bitbucket)
+![My Skills](https://simpleskill.icons.workers.dev/svg?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,bitbucket)
 
 # Themed Icons
 
@@ -37,10 +39,10 @@ Change the `&theme=light` to either `dark` or `light`. The theme is the backgrou
 **Light Theme Example:**
 
 ```md
-[![My Skills](https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda&theme=light)](#)
+[![My Skills]([BASE_URL]?i=react,node.js,docker,mongodb,postgresql,awslambda&theme=light)](#)
 ```
 
-[![My Skills](https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda&theme=light)](#)
+[![My Skills](https://simpleskill.icons.workers.dev/svg?i=react,node.js,docker,mongodb,postgresql,awslambda&theme=light)](#)
 
 # Icons Per Line
 
@@ -49,10 +51,10 @@ You can specify how many icons you would like per line! It's an optional argumen
 Change the `&perline=3` to any number between 1 and 50.
 
 ```md
-[![My Skills](https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,bitbucket&perline=4)]
+[![My Skills]([BASE_URL]?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,bitbucket&perline=4)]
 ```
 
-![My Skills](https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,bitbucket&perline=4)
+![My Skills](https://simpleskill.icons.workers.dev/svg?i=react,node.js,docker,mongodb,postgresql,awslambda,adobexd,bitbucket&perline=4)
 
 # Centering Icons
 
@@ -61,14 +63,14 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 ```html
 <p align="center">
   <a href="#">
-    <img src="https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda" />
+    <img src="[BASE_URL]?i=react,node.js,docker,mongodb,postgresql,awslambda" />
   </a>
 </p>
 ```
 
 <p align="center">
   <a href="#">
-    <img src="https://simple-skill-icons.irfaan-aa.workers.dev/icons?i=react,node.js,docker,mongodb,postgresql,awslambda" />
+    <img src="https://simpleskill.icons.workers.dev/svg?i=react,node.js,docker,mongodb,postgresql,awslambda" />
   </a>
 </p>
 

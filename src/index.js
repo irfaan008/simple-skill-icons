@@ -9,8 +9,8 @@ async function handleRequest(request) {
   const { pathname, searchParams } = new URL(request.url);
 
   const path = pathname.replace(/^\/|\/$/g, "");
-	console.log(`path`, path);
-  if (path === "icons") {
+
+  if (path === "svg") {
     const iconParam = searchParams.get("i") || searchParams.get("icons");
     if (!iconParam)
       return new Response("You didn't specify any icons!", { status: 400 });
@@ -47,6 +47,7 @@ async function handleRequest(request) {
           `viewBox="0 0 24 24"`,
           `width="256" height="256" viewBox="0 0 24 24"`
         );
+				// data = data.replace(`<path`,`<rect width="24" height="24" rx="4" fill="#F5F5F5"/> <path`)
         iconData.push(data);
       }
       const svgData = generateSvg(iconData, perLine);
