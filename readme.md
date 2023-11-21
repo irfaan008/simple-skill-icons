@@ -1,5 +1,5 @@
-<p align="center"><img align="center" width="280" src="./.github/simple-skill-logo.png"/></p>
-<p align="center"><img align="center" width="280" src="./.github/text-logo-light.svg#gh-light-mode-only"/></p>
+<p align="center"><img align="center" width="280" src="https://raw.githubusercontent.com/irfaan008/simple-skill-icons/main/.github/simple-skill-logo.png"/></p>
+
 <h3 align="center">Transform your tech skills into stunning SVG icons effortlessly, and showcase your expertise with style on LinkedIn, Resume and other place</h3>
 <hr>
 
