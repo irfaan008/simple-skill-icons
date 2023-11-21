@@ -2,6 +2,8 @@ const BASE_UNIT = 300;
 const ONE_ICON = 48;
 const SCALE = ONE_ICON / (BASE_UNIT - 44);
 const ICONS_PER_LINE = 15;
+const THEME_LIGHT = "555555";
+const THEME_DARK = "CCCCCC";
 
 async function handleRequest(request) {
   const { pathname, searchParams } = new URL(request.url);
@@ -81,7 +83,13 @@ function generateSvg(iconData, perLine) {
 }
 
 function generateIconUrl(iconName, theme){
-	return `https://cdn.simpleicons.org/${iconName.trim()}`;
+	let themeSuffix = ""
+	if(theme === 'light'){
+		themeSuffix = `/${THEME_LIGHT}`
+	} else if(theme === 'dark'){
+		themeSuffix = `/_/${THEME_DARK}`
+	}
+	return `https://cdn.simpleicons.org/${iconName.trim()}${themeSuffix}`;
 }
 
 export default {
